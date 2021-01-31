@@ -9,7 +9,7 @@ export default function Home({ data }: Props) {
     <div>
       <Head>
         <title>Currency</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Currency/favicon.ico" />
       </Head>
       <Main data={data} />
     </div>

@@ -1,4 +1,4 @@
-import React, { ReactElement, useState, useEffect } from "react";
+import React, { ReactElement } from "react";
 import styles from "../styles/main.module.css";
 import Paper from "@material-ui/core/Paper";
 import SwapVertIcon from "@material-ui/icons/SwapVert";
