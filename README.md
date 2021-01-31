@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/)
 
 ## Getting Started
 
@@ -22,7 +22,14 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## API
+
+- https://api.exchangeratesapi.io/latest
+- https://flagcdn.com
+- https://restcountries.eu/rest/v2/currency/{currency_country_code}
+
 ## Example  
+
 ![image](https://imgur.com/FIxuWcC.jpg)  
 ![image](https://imgur.com/6AoPdNB.jpg)
 ![image](https://imgur.com/hC8X2XH.jpg)
