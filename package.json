@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export && type nul > out/.nojekyll",
-    "deploy": "npm run export"
+    "export": "next export"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.2",
