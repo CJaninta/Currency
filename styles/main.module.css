@@ -78,5 +78,24 @@
   justify-content: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+  .main_paper {
+    flex-direction: column;
+  }
+  .paper_left {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .main_title {
+    font-size: 40px;
+  }
+  .dis_text {
+    font-size: 30px;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+  }
 }
