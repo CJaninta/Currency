@@ -8,8 +8,8 @@ export default function Display_exchange({
   from,
   to,
 }: {
-  from: display_exchange;
-  to: display_exchange;
+  from: display_exchange,
+  to: display_exchange
 }): ReactElement {
   return (
     <Paper

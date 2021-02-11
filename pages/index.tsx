@@ -4,14 +4,14 @@ import axios from "axios";
 import { RootObject } from "../types/rate_api";
 import { currency_rate, Props } from "../types/currency_rate";
 
-export default function Home({ data }: Props) {
+export default function Home({ data, date }: Props) {
   return (
     <div>
       <Head>
         <title>Currency</title>
         <link rel="icon" href="/Currency/favicon.ico" />
       </Head>
-      <Main data={data} />
+      <Main data={data} date={date} />
     </div>
   );
 }
@@ -21,6 +21,7 @@ export const getStaticProps = async () => {
   const data: RootObject = res.data;
 
   let rate: currency_rate[] = [];
+  let date = data.date;
   //console.log(currency_rate)
   for (let country_code in data.rates) {
     let flag = await axios.get(
@@ -42,6 +43,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       data: rate,
+      date: date,
     },
   };
 };
