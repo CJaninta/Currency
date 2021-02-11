@@ -6,6 +6,7 @@ export interface currency_rate {
 
 export interface Props {
     data: currency_rate[];
+    date: string;
 }
 
 export interface display_exchange {
